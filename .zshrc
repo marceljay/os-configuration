@@ -200,6 +200,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lll='ls -la'
 
+alias gk='gitk --all &'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
