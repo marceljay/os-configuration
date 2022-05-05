@@ -200,7 +200,10 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lll='ls -la'
 
+# git related
 alias gk='gitk --all &'
+alias gco='git checkout'
+alias gb='git checkout -b'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
